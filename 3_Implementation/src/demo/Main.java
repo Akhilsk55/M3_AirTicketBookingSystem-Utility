@@ -66,19 +66,16 @@ public class Main {
     double pay[] = new double[20];
     double change[] = new double[20];
     
-
-	
-
     for(int i=1;i<4;){
-		System.out.print("Enter User: ");
+		System.out.print("Enter User: (demo) ");
 		user = in.readLine();
-		System.out.print("Enter Password: ");
+		System.out.print("Enter Password: (demo) ");
 		password = in.readLine();
     	for(int o=1; o<=5; o++){
     		available[o]=20;
   		}
     
-    	if(user.equals("1") && password.equals("1")){
+    	if(user.equals("demo") && password.equals("demo")){
     	
     		for(int x=1; x==1;){
     			M.letShow();
