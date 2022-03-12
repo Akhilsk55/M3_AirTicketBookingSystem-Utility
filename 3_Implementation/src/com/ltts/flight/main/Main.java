@@ -1,15 +1,7 @@
-<<<<<<< HEAD
+
 package com.ltts.flight.main;
 import com.ltts.flight.pflight.*;
-=======
-package com.ltts.flight;
-import com.ltts.Flight.start.*;
-import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
 
->>>>>>> d780d41c63b5faf5885bcbc9bf33be92a8c984a3
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
