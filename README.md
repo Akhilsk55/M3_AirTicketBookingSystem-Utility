@@ -4,6 +4,7 @@ CODE QUALITY-CODACY <br/>
 codacy
 ---
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/30310807de2c49a6a5305aa4096b1014)](https://app.codacy.com/gh/Akhilsk55/M3_AirTicketBookingSystem-Utility?utm_source=github.com&utm_medium=referral&utm_content=Akhilsk55/M3_AirTicketBookingSystem-Utility&utm_campaign=Badge_Grade_Settings)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/0406d6eabfd14a778101aecffb94b180)](https://www.codacy.com/gh/Akhilsk55/M1_AirTicketBookingSystem-utility/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Akhilsk55/M1_AirTicketBookingSystem-utility&amp;utm_campaign=Badge_Grade)<br/>
 <br/>
 cpp-check
