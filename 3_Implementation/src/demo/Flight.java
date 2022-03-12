@@ -11,9 +11,6 @@ public class Flight {
     private double originalPrice;
 
     public Flight(int fn, String o, String ds, String dp, int c, double op) {
-        if (ds.equals(o) == true) {
-            throw new IllegalArgumentException("destination and origin are the same");
-        }
         flightNumber = fn;
         origin = o;
         destination = ds;
