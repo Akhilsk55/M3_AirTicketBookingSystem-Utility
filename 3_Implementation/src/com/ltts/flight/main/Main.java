@@ -1,5 +1,5 @@
-package com.ltts.flight;
-
+package com.ltts.flight.main;
+import com.ltts.flight.pflight.*;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;

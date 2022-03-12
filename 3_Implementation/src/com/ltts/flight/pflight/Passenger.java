@@ -1,4 +1,5 @@
-package com.ltts.flight;
+package com.ltts.flight.pflight;
+
 public abstract class Passenger {
 
     String name;
