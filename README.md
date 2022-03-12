@@ -8,7 +8,7 @@ codacy
 <br/>
 cpp-check
 ---
-
+[![CodiGA Badge](https://api.codiga.io/project/31968/status/svg)]
  
 Source code is available in 3_Implementation/src
 ---
