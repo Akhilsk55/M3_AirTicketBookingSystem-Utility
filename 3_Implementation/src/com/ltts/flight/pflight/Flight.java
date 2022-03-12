@@ -1,5 +1,4 @@
-package com.ltts.flight;
-import com.ltts.flight.pflight.*;
+package com.ltts.flight.pflight;
 public class Flight {
 
     private int flightNumber;

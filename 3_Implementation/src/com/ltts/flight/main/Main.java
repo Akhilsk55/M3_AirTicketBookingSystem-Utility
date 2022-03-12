@@ -1,7 +1,8 @@
 
 package com.ltts.flight.main;
 import com.ltts.flight.pflight.*;
-
+import java.time.format.DateTimeFormatter;  
+import java.time.LocalDateTime;    
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +16,7 @@ public class Main {
 	    }
 	public void letShow()
 	{
+		
 		System.out.println("********************************************");
 		System.out.println("**    AIRLINE TICKET BOOKING SYSTEM      **");
 		System.out.println("********************************************");
@@ -27,6 +29,12 @@ public class Main {
 		System.out.println("********************************************");
 		System.out.println("********************************************\n");
 
+	}
+	public void datetime()
+	{
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");  
+        LocalDateTime now = LocalDateTime.now();  
+        System.out.println("                                             "+dtf.format(now));  
 	}
     
     public void createFlights() {
@@ -80,6 +88,7 @@ public class Main {
     	if(user.equals("demo") && password.equals("demo")){
     	
     		for(int x=1; x==1;){
+				M.datetime();
     			M.letShow();
     	
     			for(x=1; x==1;){
@@ -88,11 +97,13 @@ public class Main {
 					
 					if (choice.equals("1"))
 					{
+						M.datetime();
 						M.createFlights();
 						M.letShow();
 					}
 					else if (choice.equals("2"))
 					{
+						M.datetime();
     					System.out.println("***************************************");
 						System.out.println("**   DESTINATION   |   FARE  |  SEAT  **");
 						System.out.println("***************************************");
@@ -111,6 +122,7 @@ public class Main {
 				
 					else if (choice.equals("3")){
 						int print=1;
+						M.datetime();
 						System.out.println("***************************************");
 						System.out.println("**   DESTINATION   |   FARE  |  SEAT  **");
 						System.out.println("***************************************");
@@ -212,6 +224,7 @@ public class Main {
     		
     	
     					if(print==1){
+							M.datetime();
     						System.out.println("\n***************************************");
     						System.out.println("**        PASSENGER'S DETAILS        **");
     						System.out.println("***************************************");
@@ -243,6 +256,7 @@ public class Main {
 								int s=1;
 								for(int b=0;b<z;b++){
 									if(search.equalsIgnoreCase(ticketS[b][0])){
+										M.datetime();
 										System.out.println("***************************************");
 	    								System.out.println("**        PASSENGER'S DETAILS        **");
 	    								System.out.println("***************************************");
@@ -319,6 +333,7 @@ public class Main {
     		 		   	int s=1;
 							for(x=0; x<=z; x++){
 								if(search.equalsIgnoreCase(ticketS[x][0])){
+									M.datetime();
 									System.out.println("***************************************");
     								System.out.println("**        PASSENGER'S DETAILS        **");
     								System.out.println("***************************************");
