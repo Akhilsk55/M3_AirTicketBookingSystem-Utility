@@ -1,4 +1,4 @@
-package com.ltts.Flight;
+package com.ltts.flight;
 
 import java.io.*;
 import java.util.ArrayList;
