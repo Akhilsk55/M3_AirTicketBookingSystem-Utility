@@ -1,4 +1,4 @@
-// package com.ltts.Flight;
+package com.ltts.Flight;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -28,8 +28,7 @@ public class Main {
 	}
     
     public void createFlights() {
-        int FN, c;
-        double op;
+        int FN, c; double op;
         String origin, destination, dt;
         Scanner scan1 = new Scanner(System.in);
         Scanner scan2 = new Scanner(System.in);

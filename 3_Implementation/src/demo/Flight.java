@@ -1,4 +1,4 @@
-// package com.ltts.Flight;
+package com.ltts.Flight;
 
 public class Flight {
 
